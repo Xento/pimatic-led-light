@@ -56,10 +56,10 @@ To install the plugin on a Debian or Raspbian system libudev-dev must be install
 
 ```
     {
-      "id": 'some_id'
-      "name": 'some_name'
-      "class": 'MilightRF24'
-      "port": '/dev/ttyUSB1'
+      "id": "some_id",
+      "name": "some_name",
+      "class": "MilightRF24",
+      "port": "/dev/ttyUSB1",
       "zones": [
           {
             "addr": "5927",
@@ -98,7 +98,7 @@ Get the sketch from here https://github.com/henryk/openmili and change the CE an
     {
       "id": "some_id",
       "name": "some_name",
-      "class": "Wifi370",
+      "class": "Hyperion",
       "addr": "xxx.xxx.xxx.xxx"
     }
 ```
